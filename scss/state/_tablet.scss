@@ -1,0 +1,56 @@
+/*font size*/   
+h1 {
+    font-size: $font_large;
+}
+
+
+h4 { 
+    font-size: $font_medium;
+    text-transform: uppercase;
+}
+
+
+
+/*Navigation*/
+.nav_logo{
+    margin-right: 0px!important;
+
+}
+
+
+/*Carousel*/ 
+
+.carousel-item img {
+        height: 60vh;   
+    }
+
+/*Sections*/
+/*Main Section*/    
+    
+.section_one {
+
+    h1{
+        font-size:$font_large;
+        
+    }
+}
+    
+    
+    
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg6{
+   height: 40rem; 
+}
+
+.pimg5{
+    height :50vh;
+}
+
+/*gallery*/
+
+.gallery {
+    margin-top: 2rem;
+    margin-bottom:5rem;
+    
+}
+

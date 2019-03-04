@@ -1,0 +1,34 @@
+.carousel-item img {
+    @include cover;
+    height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.upper_case {
+    font-size: 2em;
+}
+
+
+
+/*navigation*/
+.menu_icon {
+    font-size: 2em;
+}
+
+
+/*Gallery*/
+.gallery_frame {
+    height: 200px!important;
+    width: 200px!important;
+
+}
+
+.location_one, .second_location{
+    margin: 5rem;
+    
+
+}
+
+
+

@@ -1,0 +1,43 @@
+
+aside{
+    .gallery {
+    margin: 0;
+
+    }
+
+.flex_parent {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    justify-content: center;
+     -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    margin-top: 5%;
+}
+
+.gallery_frame {
+    height: 150px;
+    width:150px;
+    overflow: hidden;
+
+
+}
+
+.gallery_frame img {
+    @include cover;
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 100%;
+}
+}
+
+.instagram{
+    a{
+        @include link;
+        font-size: $font_medium;
+        &:hover {
+            color: $greenbrand_color;
+            
+        }
+    }
+}

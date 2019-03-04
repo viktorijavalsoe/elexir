@@ -1,0 +1,532 @@
+/*brand colors*/
+/*Fonts*/
+/*Font sizes*/
+/*Font Colors*/
+/*link colors*/
+/*banners*/
+/*Font*/
+h1, h3, h4, p {
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-family: "Vidaloka", serif;
+  font-size: 3rem;
+  /* color: $yellowbrand_color;*/
+  color: #cc0033;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+h4, p {
+  font-size: 1rem;
+  color: black;
+}
+
+.container-fluid {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+aside {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*Yellow brake line*/
+.yellow {
+  background-color: #ffcc00;
+  height: 80px;
+}
+
+.ptext, .pbutton {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.ptext {
+  top: 40%;
+  font-size: 2rem;
+  letter-spacing: 8px;
+}
+
+.ptext .border {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 2rem;
+}
+
+.ptext a {
+  color: white;
+  text-decoration: none;
+}
+
+.ptext a:hover {
+  color: #19d300;
+}
+
+.pbutton {
+  top: 60%;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+.pbutton .button {
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  padding: 1rem;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  opacity: 0.80;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 30rem;
+  background-attachment: fixed;
+}
+
+.pimg5 {
+  margin-top: 5rem;
+}
+
+.pimg2 {
+  background-image: url(../../images/Hungry_Beast_fruits.jpg);
+}
+
+.pimg1 {
+  background-image: url(../../images/our_juices.jpg);
+}
+
+.pimg3 {
+  background-image: url(../../images/juice_display.jpg);
+}
+
+.pimg4 {
+  background-image: url(../../images/juice-cleanse-potw-05.jpg);
+}
+
+.pimg5 {
+  background-image: url(../../images/location_one.jpg);
+}
+
+.pimg6 {
+  background-image: url(../../images/location_two.jpg);
+}
+
+/*css animations*/
+.icon_container .icon, .animation_container .icon2 {
+  list-style: none;
+  margin: 5%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.icon_container .icon:before, .animation_container .icon2:before {
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .3s ease-in-out;
+}
+
+.icon_container,
+.animation_container {
+  margin: 0;
+  padding: 0;
+}
+
+/*animation Our Juices*/
+.icon_container .icon {
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin: 15px;
+  background: #ffcc00;
+  color: white;
+  transition: .3s ease-in-out;
+}
+
+.icon_container .icon:before {
+  width: 100%;
+  background: white;
+  border-radius: 50%;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.icon_container .icon:hover:before {
+  transform: scale(1);
+}
+
+.icon_container .icon:hover {
+  color: #19d300;
+}
+
+/*animation About*/
+.animation_container .icon2 {
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.animation_container .icon2:before {
+  width: 50%;
+  background: #ffcc00;
+  z-index: -3;
+}
+
+.animation_container .icon2:after {
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #19d300;
+  transition: .5s ease-in-out;
+  z-index: -3;
+  opacity: .8;
+}
+
+.animation_container .icon2:hover:after {
+  top: 0;
+}
+
+/*Carousel*/
+.carousel_container {
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.carousel_container .carousel-caption {
+  margin-bottom: 4rem;
+  width: auto;
+}
+
+.carousel_container .carousel-caption h2 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 4rem;
+}
+
+.carousel_container .carousel-caption p {
+  font-size: 2rem;
+  color: white;
+}
+
+.carousel_container .carousel-item img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #222222;
+  padding: 3rem;
+  color: white;
+}
+
+footer .suscribe {
+  margin-top: 1rem;
+}
+
+footer a .btn {
+  padding: 0;
+  margin: 0;
+}
+
+footer .fa {
+  padding: 0;
+  margin: 0;
+}
+
+footer .contact,
+footer .about,
+footer .social_media {
+  margin-top: 1rem;
+}
+
+footer p {
+  color: white;
+}
+
+footer .p_capslock {
+  color: #19d300;
+}
+
+aside .gallery {
+  margin: 0;
+}
+
+aside .flex_parent {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  margin-top: 5%;
+}
+
+aside .gallery_frame {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+aside .gallery_frame img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.instagram a {
+  color: black;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.instagram a:hover {
+  color: #19d300;
+}
+
+nav .current {
+  color: #19d300;
+}
+
+nav .nav_logo {
+  width: 7rem;
+  height: 4rem;
+  margin-right: 100px;
+  margin-left: 40px;
+}
+
+nav .navbar-toggler {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+nav .navbar-left a {
+  padding-left: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: black;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #19d300;
+  text-decoration: none;
+}
+
+.menu_icon {
+  font-size: 1.5rem;
+}
+
+/*welcome section*/
+.section_one {
+  text-align: center;
+  margin: 4rem;
+}
+
+.section_one h1 {
+  font-size: 1rem;
+}
+
+/*paragraph section*/
+.photo_wrapper_right,
+.photo_wrapper {
+  background-color: #ffcc00;
+}
+
+.photo_wrapper_right {
+  padding-left: 0;
+  padding-right: 5rem;
+}
+
+.photo_wrapper {
+  padding-right: 0;
+}
+
+.text_wrapper {
+  align-self: center;
+  text-align: center;
+  padding: 5rem;
+}
+
+.text_wrapper p {
+  margin-top: 1rem;
+}
+
+/*Locations*/
+.location_one, .second_location {
+  margin: 2rem;
+}
+
+.location_one h2, .second_location h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  color: #cc0033;
+}
+
+.location_one iframe, .second_location iframe {
+  height: 40rem;
+  width: 100%;
+}
+
+.location_one .cafe, .second_location .cafe {
+  margin-bottom: 2rem;
+}
+
+/*Our Juices*/
+.juice_title {
+  text-align: center;
+}
+
+.juice_menu {
+  margin: 4rem;
+}
+
+.juice_menu h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.juice_menu h3 {
+  color: black;
+  font-size: 1rem;
+  text-decoration: underline #cc0033;
+}
+
+.juice_menu hr {
+  margin-top: 4rem;
+}
+
+.juice_menu .juice_text, .juice_menu .juice_photo {
+  padding: 0 1rem 1rem 1rem;
+}
+
+header,
+nav,
+section,
+gallery,
+footer {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  /*font size*/
+  h1 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  /*Navigation*/
+  .nav_logo {
+    margin-right: 0px !important;
+  }
+  /*Carousel*/
+  .carousel-item img {
+    height: 60vh;
+  }
+  /*Sections*/
+  /*Main Section*/
+  .section_one h1 {
+    font-size: 3rem;
+  }
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg6 {
+    height: 40rem;
+  }
+  .pimg5 {
+    height: 50vh;
+  }
+  /*gallery*/
+  .gallery {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item img {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .upper_case {
+    font-size: 2em;
+  }
+  /*navigation*/
+  .menu_icon {
+    font-size: 2em;
+  }
+  /*Gallery*/
+  .gallery_frame {
+    height: 200px !important;
+    width: 200px !important;
+  }
+  .location_one, .second_location {
+    margin: 5rem;
+  }
+}

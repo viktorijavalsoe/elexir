@@ -1,0 +1,92 @@
+
+/*welcome section*/
+
+.section_one {
+    text-align: center;
+    margin: 4rem;
+    
+    h1{
+        font-size:$font_normal;
+        
+    }
+}
+
+/*paragraph section*/
+
+.photo_wrapper_right,
+.photo_wrapper {
+    background-color: $yellowbrand_color;
+}
+
+.photo_wrapper_right {
+    padding-left: 0;
+    padding-right: 5rem;
+    
+}
+
+.photo_wrapper {
+    padding-right: 0;
+   
+}
+
+.text_wrapper {
+    align-self: center;
+    text-align: center;
+    padding: 5rem;
+    
+    p{
+        margin-top: 1rem;
+    }
+  
+
+}
+
+/*Locations*/
+
+.location_one, .second_location{
+    margin: 2rem;
+    
+    h2{
+        font-family: $sans-serif_font;
+        font-size: $icon_size_small;
+        color:$redbrand_color;;
+    }
+    
+    iframe{
+        height: 40rem;
+        width: 100%;
+    }
+    
+    .cafe{
+    margin-bottom: 2rem;
+}
+}
+
+/*Our Juices*/
+.juice_title{
+    text-align: center;
+}
+
+.juice_menu{
+    margin: 4rem;
+    
+    h2{
+       font-family: $sans-serif_font; 
+       font-size: $font_medium;      
+    }
+    
+    h3{
+        color: black;
+        font-size: $font_normal;
+        text-decoration: underline $redbrand_color;
+    }
+    
+    hr{
+        margin-top: 4rem;
+    }
+
+ .juice_text, .juice_photo{ 
+   padding: 0 1rem 1rem 1rem;
+     }
+
+}

@@ -1,0 +1,35 @@
+footer {
+    background-color: #222222;
+    padding: 3rem;
+    color: white;
+
+    .suscribe {
+        margin-top: 1rem;
+    } 
+    a .btn {
+        padding: 0;
+        margin: 0;
+    }
+
+    .fa {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .contact,
+    .about,
+    .social_media {
+        margin-top: 1rem;
+    }
+    
+    p{
+        color: $light-color;
+    }
+
+    .p_capslock {
+        color: $greenbrand_color;
+    }
+}
+
+ 

@@ -1,0 +1,33 @@
+/*Carousel*/
+
+.carousel_container {
+    padding: 0;
+    margin-top: 3rem;
+
+    .carousel-caption {
+        margin-bottom: 4rem;
+        width: auto;
+
+        h2 {
+            font-family: $sans-serif-font;
+            letter-spacing: 2px;
+            color: $light-color;
+            font-size: $font_xl;
+        }
+
+        p {
+            font-size: $font_medium;
+            color: $light-color;
+        }
+
+    }
+
+    .carousel-item {
+        img {
+            @include cover;
+            object-fit: cover;
+            overflow: hidden;
+        }
+
+    }
+}

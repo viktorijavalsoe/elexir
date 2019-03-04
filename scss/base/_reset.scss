@@ -1,0 +1,27 @@
+.container-fluid {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html, body,{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+aside{
+    margin:0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*Yellow brake line*/
+
+.yellow {
+    background-color: $yellowbrand_color;
+    height: 80px;
+}

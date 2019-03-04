@@ -1,0 +1,32 @@
+@import "abstracts/variables";
+@import "abstracts/mixin";
+@import "base/typography";
+@import "base/reset";
+@import "components/parallax";
+@import "components/animation";
+@import "components/carousel_gallery";
+@import "layout/footer";
+@import "layout/gallery";
+@import "layout/navigation";
+@import "layout/section";
+
+header,
+nav,
+section,
+gallery,
+footer {
+    display: block;
+}
+
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    @import "state/tablet";
+}
+
+@media (min-width: 992px) {
+    @import "state/desktop";
+}

@@ -1,0 +1,24 @@
+h1, h3, h4, p{
+    font-family: $sans-serif_font;
+    
+}
+
+h2 {
+    font-family: $serif_font;
+    font-size: $font_large;
+   /* color: $yellowbrand_color;*/
+     color:$redbrand_color;
+ 
+}
+
+h3 {
+    
+    font-size: $font_medium;
+    color: $light-color;
+    
+}
+h4, p{
+    font-size: $font_normal;
+    color: $dark-color;
+}
+

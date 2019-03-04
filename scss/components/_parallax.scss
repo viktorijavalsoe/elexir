@@ -1,0 +1,90 @@
+%parallax_text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family:$sans-serif_font;
+    text-transform: uppercase;
+    
+}
+
+.ptext{
+    @extend %parallax_text;
+    top: 40%;
+    font-size: $font_medium;
+    letter-spacing: 8px;
+       
+    .border{
+        background: rgba(0, 0, 0, .9);
+        color: #fff;
+        padding: 2rem;
+    }
+    
+    a{
+        color: $light-color;
+        text-decoration: none;
+        
+        &:hover{
+            color: $greenbrand_color;
+        }
+    }
+    
+}
+    
+.pbutton{
+    @extend %parallax_text;
+    top: 60%; 
+    font-size: $icon_size_small;
+    letter-spacing: 5px;
+     
+    .button{
+        background: rgba(255, 255, 255, .9);
+        color:#111;
+        padding: 1rem;
+    
+    }
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
+    @include cover;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+    background-attachment: fixed;   
+}
+
+.pimg5{
+    margin-top: 5rem;
+}
+
+.pimg2{
+    background-image: url(../../images/Hungry_Beast_fruits.jpg);
+    
+}
+
+.pimg1{
+    background-image: url(../../images/our_juices.jpg);
+}
+
+.pimg3{
+    background-image: url(../../images/juice_display.jpg);
+}
+
+.pimg4{
+    background-image: url(../../images/juice-cleanse-potw-05.jpg);
+}
+.pimg5{
+    background-image: url(../../images/location_one.jpg);
+}
+
+.pimg6{
+    background-image: url(../../images/location_two.jpg);
+};
+
+
+
+
+
+
